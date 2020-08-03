@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mcaupybugs.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/mcaupybugs.github.io/static/js/main.6ec46cc1.chunk.js",
+    "main.js.map": "/mcaupybugs.github.io/static/js/main.6ec46cc1.chunk.js.map",
+    "runtime-main.js": "/mcaupybugs.github.io/static/js/runtime-main.007b4d39.js",
+    "runtime-main.js.map": "/mcaupybugs.github.io/static/js/runtime-main.007b4d39.js.map",
+    "static/js/2.4c736102.chunk.js": "/mcaupybugs.github.io/static/js/2.4c736102.chunk.js",
+    "static/js/2.4c736102.chunk.js.map": "/mcaupybugs.github.io/static/js/2.4c736102.chunk.js.map",
+    "index.html": "/mcaupybugs.github.io/index.html",
+    "precache-manifest.1575993eab2277502c4d8ed5a1461a90.js": "/mcaupybugs.github.io/precache-manifest.1575993eab2277502c4d8ed5a1461a90.js",
+    "service-worker.js": "/mcaupybugs.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/mcaupybugs.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4c736102.chunk.js.LICENSE.txt": "/mcaupybugs.github.io/static/js/2.4c736102.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/mcaupybugs.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.007b4d39.js",
+    "static/js/2.4c736102.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.6ec46cc1.chunk.js"
+  ]
+}
