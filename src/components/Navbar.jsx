@@ -1,15 +1,13 @@
 import React from "react";
+import "./Navbar.css";
 
 export default class Navbar extends React.Component {
   render() {
     return (
       <div>
-        <nav
-          style={{ backgroundColor: "black" }}
-          className="navbar navbar-expand-lg navbar-dark bg-dark"
-        >
+        <nav className="navbar navbar-expand-lg navbar-dark bg-black">
           <a className="navbar-brand mx-auto" href="#">
-            Vishal Yadav
+            McaupyBugs
           </a>
           <button
             className="navbar-toggler"
