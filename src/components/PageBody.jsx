@@ -1,11 +1,22 @@
 import React from "react";
 import "./PageBody.css";
+var android = require("../assets/android.png");
+var code = require("../assets/code.png");
 
 export default class PageBody extends React.Component {
   render() {
     return (
       <div>
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center blackColor text-light">
+          <div className="position-absolute">
+            <img width="400" height="400" src={android}></img>
+          </div>
+          <div
+            style={{ right: "5%", top: "15%" }}
+            className=" position-absolute"
+          >
+            <img width="350" height="330" src={code}></img>
+          </div>
           <div class="col-md-5 p-lg-5 mx-auto my-5">
             <h1 class="display-5 text-light font-weight-normal">
               Vishal Yadav [Mcaupybugs]
@@ -34,9 +45,8 @@ export default class PageBody extends React.Component {
               Github
             </a>
           </div>
-          <div class="product-device shadow-sm d-none d-md-block"></div>
-          <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         </div>
+        <div></div>
       </div>
     );
   }

@@ -6,8 +6,23 @@ export default class Navbar extends React.Component {
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark blackColor text-light">
-          <a className="navbar-brand mx-auto" href="#">
+          <a
+            className="navbar-brand mx-auto"
+            href="https://mcaupybugs.github.io/"
+          >
             McaupyBugs
+          </a>
+          <a className="navbar-brand mx-auto" href="#android">
+            Android
+          </a>
+          <a className="navbar-brand mx-auto" href="#web">
+            Web Dev.
+          </a>
+          <a className="navbar-brand mx-auto" href="#machine">
+            Machine Learning
+          </a>
+          <a className="navbar-brand mx-auto" href="#competitive">
+            Competitive Coding
           </a>
           <button
             className="navbar-toggler"
