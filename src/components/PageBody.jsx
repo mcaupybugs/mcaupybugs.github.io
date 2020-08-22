@@ -5,13 +5,26 @@ export default class PageBody extends React.Component {
   render() {
     return (
       <div>
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-black">
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center blackColor text-light">
           <div class="col-md-5 p-lg-5 mx-auto my-5">
             <h1 class="display-5 text-light font-weight-normal">
               Vishal Yadav [Mcaupybugs]
             </h1>
             <p class="lead text-light font-weight-normal">
-              Web Developer , Android Developer, Machine Learning Enthusiast ...
+              <ul class="text-light list-group list-group-horizontal-xl">
+                <li class="blackColor text-light list-group-item">
+                  Web Developer
+                </li>
+                <li class="blackColor text-light list-group-item">
+                  Android Developer
+                </li>
+                <li class="list-group-item blackColor text-light">
+                  Machine Learning
+                </li>
+                <li class="list-group-item blackColor text-light">
+                  Competitive Programming
+                </li>
+              </ul>
             </p>
             <p class="lead text-light font-weight-normal">A lot more to come</p>
             <a

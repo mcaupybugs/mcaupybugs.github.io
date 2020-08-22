@@ -5,7 +5,7 @@ export default class Navbar extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-black">
+        <nav className="navbar navbar-expand-lg navbar-dark blackColor text-light">
           <a className="navbar-brand mx-auto" href="#">
             McaupyBugs
           </a>
